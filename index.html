@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <section id="header">  
+        <div class="container">
+            <nav>
+               <div id="logo"><i class="fa-solid fa-code"></i></div>
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+                    <li><a onclick="show1('about')" >About</a></li>
+                    <li><a  onclick="show1('Projects')">Projects</></li>
+                    <li><a onclick="show1('contact')">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <div>Hi,I'm <span>PRATHYUSHA</span><br>-from Mangaluru</div>
+                <span><img src="backg.png" alt="" class="backg"></span>
+              
+            </div>
+        </div>
+    </section>
+    <div id="about">
+    <div id="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="1000032565-01.jpeg"  alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="aboutme">About me</h1>
+                <p>I am Prathyusha, a 20-year-old engineering student from Surathkal, Mangalore. Currently, I am in my third year of studying Computer Science at St. Joseph Engineering College, Mangalore. Passionate about technology and problem-solving, I am eager to continue expanding my knowledge and skills in the field of computer science.</p>
+
+                <div class="tab-titles">
+                    <p class="title-tab active-link" onclick="opentab('skills')">Skills</p>
+                    <p  class="title-tab" onclick="opentab('internship');">Internship</p>
+                    <p class="title-tab " onclick="opentab('education');">Education</p>
+                </div>
+                <div class="tab-contents active-tab " id='skills'>
+                    <ul>
+                        <li><span>Web development</span><br>Proficient in HTML, CSS, JavaScript, and React, with foundational knowledge of Bootstrap. Skilled in creating responsive, interactive web applications with a focus on clean design and efficient performance.</li>
+                       
+                    </ul>
+                    
+                 </div>
+                
+                 
+                 <div class="tab-contents" id='internship'>
+                    <ul>
+                        <li><span>Zephyr Technologies,Mangalore </span><br>I successfully completed a web development internship at Zephyr Technologies, Mangalore. Throughout the internship, I gained valuable experience in front-end development, and gained insights into PHP and Bootstrap frameworks. This opportunity further honed my skills and deepened my understanding of web development practices.</li>
+                        
+                    </ul>
+                    
+                 </div>
+                 <div class="tab-contents" id='education'>
+                    <ul>
+                        <li><span>2019</span><br>Delhi Public School</li>
+                        <li><span>2021</span><br>Govinda Dasa PU College</li>
+                        <li><span>2025</span><br>St Joseph Engineering College</li>
+                    </ul>
+                    
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div id="imageContainer">
+        <div id="languages">
+        <p class="imagecont">Languages</p>
+        <div id="icons">
+        <span><img src="c++.jpg" alt="" class="langlogo"></span>
+        <span><img src="c.jpg" alt="" class="langlogo"></span>
+        <span><img src="js.png" alt="" class="langlogo"></span>
+        <span><img src="python.png" alt="" class="langlogo"></span>
+        <span><img src="java.jpg" alt="" class="langlogo"></span>
+        <span><img src="html.png" alt="" class="langlogo"></span>
+        <span><img src="css.png" alt="" class="langlogo"></span>
+        <span><img src="react.png" alt="" class="langlogo"></span>
+    </div>
+    </div>
+      
+    </div>
+    <!---->
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="project-list">
+                <div class="box">
+                   <div class="heading"><h2> BLOOD MANAGMENT SYSTEM using tKinter </h2><img src="bloodlogo.png"  id="blood"alt=""></div> 
+                    <p>I developed a Blood Management System using Python's Tkinter library to streamline the management of blood donations and inventory. The system allows users to register donors, track blood types, and monitor stock levels. Its user-friendly interface ensures efficient record-keeping and enhances the overall management of blood bank operations. This project demonstrates my skills in GUI development and database integration.</p>
+                    <a href="https://github.com/prathyushaa5/BloodManagmentSystem.git"><i class="fa-brands fa-github git"></i></a> 
+                </div>
+                <div class="box">
+                    <div class="heading"><h2> ART GALLERY SYSTEM using HTML,CSS and JS </h2><img src="artgallerylogo.webp"  id="art"alt=""></div> 
+                    <p> Developed an Art Gallery System using HTML, CSS, JavaScript, and PHP. The system allows users to browse, search, and view art pieces, with a secure login for artists to upload and manage their artworks. It features a responsive design for seamless viewing on any device, dynamic image galleries, and an intuitive interface to enhance user experience. This project showcases my skills in front-end , database management, and user authentication.</p>
+                    <a href="https://github.com/prathyushaa5/artgallery.git" ><i class="fa-brands fa-github git"></i></a>  
+                    
+                    
+                </div>
+                <div class="box">
+                    <div class="heading"><h2>WEATHER APP using  React and open-meteo API</h2><img src="weather.webp"  id="blood"alt=""></div> 
+                    <p>I developed a dynamic Weather App using React and the Open-Meteo API. The app offers real-time weather data, including temperature, timings, and wind speed for multiple countries. It showcases my proficiency in React and API integration with an intuitive interface, responsive design, and accurate weather updates. This project demonstrates my ability to create functional, user-friendly applications that efficiently retrieve and display essential information..</p>
+                    <a href="https://github.com/prathyushaa5/Weather-app"><i class="fa-brands fa-github git"></i></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="row">
+                
+            <div class="contact-left">
+           <a href="mailto:prathyushaacharya050@gmail.com"><i class="fa-solid fa-envelope"></i>prathyushaacharya050@gmail.com</a>    
+           <a href="tel:7483259731"><i class="fa-solid fa-phone"></i>7483259731</a>
+           <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a><br>
+            <a href="Prathyusha-resume.pdf" download class="btn btn2">Download CV</a>
+           </div>
+        </div>
+       
+           
+
+
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p></i>Copyright<i class="fa-solid fa-heart"></i>Prathyusha</p>
+    </div>
+
+</body>
+
+</html>
